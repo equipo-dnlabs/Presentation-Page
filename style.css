@@ -269,7 +269,6 @@ ul, ol { padding: 0; list-style: none; }
 
 .hero-day {
   position: relative;
-  background: linear-gradient(135deg, var(--sun) 0%, var(--paper) 100%);
 }
 
 .hero-day .hero-stars {
@@ -978,7 +977,7 @@ ul, ol { padding: 0; list-style: none; }
 @media (max-width: 980px) {
   .manifesto { grid-template-columns: 1fr; gap: 24px; }
   .manifesto-lede { max-width: 46ch; }
-  .claims { grid-template-columns: 1fr; gap: 26px; padding-inline-start: 0; }
+  .claims { grid-template-columns: 1fr; gap: 26px; padding-inline-start: clamp(24px, 6vw, 48px); }
   .claim dd { max-width: 54ch; }
 }
 
