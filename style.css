@@ -553,6 +553,15 @@ ul, ol { padding: 0; list-style: none; }
   width: 100%;
   height: auto;
 }
+.still-link {
+  display: block;
+}
+.still-link img {
+  transition: opacity 0.3s var(--ease);
+}
+.still-link:hover img {
+  opacity: 0.9;
+}
 
 .chips {
   display: flex;
